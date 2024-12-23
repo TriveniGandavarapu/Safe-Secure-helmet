@@ -3,7 +3,7 @@ from datetime import datetime
 from flask import Flask,request,render_template,jsonify
 from flask_cors import CORS
 
-client=MongoClient('mongodb+srv://trivenigandavarapu:EVnY2g3YAjoDkNIF@eceelegants.52laq.mongodb.net/?retryWrites=true&w=majority&appName=EceElegants')
+client=MongoClient('mongodb+srv://trivenigandavarapu:1234567890@eceelegants.52laq.mongodb.net/')
 db=client['makeskilled']
 collection=db['iotdata-test']
 alertsCollection=db['alerts']
